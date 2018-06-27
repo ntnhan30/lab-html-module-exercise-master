@@ -64,7 +64,7 @@ nav a {
 }
 .collaboration{
     border: 1px red solid;
-    width: 900px;
+    padding: 15px 270px;
     height:300px;
     margin: 0 auto;
     background-color: rgb(39, 53, 71);
@@ -83,7 +83,24 @@ nav a {
     padding: 60px 10px;
     color:white;
 }
+.sub-coll ul {
+    border: 1px red solid; 
+mpadding : 30px 10px;
+}
 .sub-coll a {
+    border: 1px green solid; 
+    display: inline-block;
     text-decoration: none;
     color: white;
+    margin:5px;
 }
+#button2 {
+    border: 1px green solid; 
+    background-color: rgb(203, 56, 55);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 5px;
+}
+  
