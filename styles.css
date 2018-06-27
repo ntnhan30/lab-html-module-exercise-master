@@ -24,13 +24,66 @@ nav a {
 
   }
   
-  .cut{
-      border:1px red solid;
-      width: 550px;
+  .city-scape{
+      width: 850px;
       margin :0 auto;
       color:white;
-      padding:20px 10px;
-     
+      padding:50px 10px;
+     }
+   .city-scape a {
+       background-color: rgb(240, 146, 51);
+       text-decoration: none;
+       color: white;
+       padding: 10px 10px;
+       border-radius: 12px;
+ }
+ .search-bar {    
 }
-  
+.search-bar input {     background-color: rgb(31, 82, 111);
+    display: inline;
+    width: 1150px;
+    margin: 0 15px;
+    border-color: transparent;
+    
+   
 
+}
+.search-bar a {
+    color: white;
+    display: inline-block;
+    float: right;
+    margin: 0 5px 0 0 ;
+    text-decoration: none;
+}
+.search-bar img{
+    display: inline-block;
+    float: left;
+}
+#bear-logo {
+    float: right;
+}
+.collaboration{
+    border: 1px red solid;
+    width: 900px;
+    height:300px;
+    margin: 0 auto;
+    background-color: rgb(39, 53, 71);
+
+}
+.collaboration img, .sub-coll  {
+    display: inline-block;
+    margin: 0 ;
+    
+
+}
+.collaboration img{
+    float: left;
+}
+.sub-coll {
+    padding: 60px 10px;
+    color:white;
+}
+.sub-coll a {
+    text-decoration: none;
+    color: white;
+}
