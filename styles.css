@@ -39,7 +39,8 @@ nav a {
  }
  .search-bar {    
 }
-.search-bar input {     background-color: rgb(31, 82, 111);
+.search-bar input {     
+    background-color: rgb(31, 82, 111);
     display: inline;
     width: 1150px;
     margin: 0 15px;
@@ -103,4 +104,49 @@ mpadding : 30px 10px;
     border-radius: 12px;
     margin: 5px;
 }
-  
+.What-is-npm{
+    background: url(images/forklift.svg);
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 400px;
+    border: 3px solid #73AD21;
+}
+.What-is-npm-text {
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    width: 400px;
+    height: 200px;
+}
+.What-is-npm-text heading {
+    font-size: 150%;
+    }
+.What-is-npm-text p {
+
+}
+#button3 {
+    background-color: rgb(49, 68, 88);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 0;
+}
+.Whatcantext {
+    border: 2px red solid;
+    text-align: center;
+
+}
+.logos {
+    border: 2px red solid;
+    text-align: center;
+
+}
+.logos div {
+    border: 2px palevioletred solid;
+    text-align: center;
+    width: 300PX    ;
+    display: inline-block;
+}
