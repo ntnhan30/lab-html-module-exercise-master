@@ -135,18 +135,26 @@ mpadding : 30px 10px;
     margin: 0;
 }
 .Whatcantext {
-    border: 2px red solid;
     text-align: center;
+}
 
+.Whatcantext heading {
+color: rgb(83, 88, 98);
+}
+.Whatcantext p {
+color: rgb(135, 145, 156);
 }
 .logos {
-    border: 2px red solid;
     text-align: center;
-
 }
 .logos div {
-    border: 2px palevioletred solid;
+    border:  palevioletred solid;
     text-align: center;
-    width: 300PX    ;
+    width: 260PX;
     display: inline-block;
+}
+
+.logos div a {
+    text-decoration: none;
+    color: rgb(208, 74, 73);
 }
