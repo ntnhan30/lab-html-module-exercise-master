@@ -41,39 +41,44 @@
 //Functions
 //Exercise
 
-function addNumbers (a,b){
-  return a+b;
-  }
-// var i= addNumbers (1,2);
-// console.log(i);
+// function addNumbers (a,b){
+//   return a+b;
+//   }
+// // var i= addNumbers (1,2);
+// // console.log(i);
 
-function subtractNumbers (a,b) {
-  return a-b;
-}
-// var i= subtractNumbers (5,1);
-// console.log(i);
+// function subtractNumbers (a,b) {
+//   return a-b;
+// }
+// // var i= subtractNumbers (5,1);
+// // console.log(i);
 
-function multiplyNumbers (a,b) {
-  return a*b;
-}
-// var i= multiplyNumbers (5,3);
-// console.log(i);
+// function multiplyNumbers (a,b) {
+//   return a*b;
+// }
+// // var i= multiplyNumbers (5,3);
+// // console.log(i);
 
 // function divideNumbers (a,b) {
 //   return a/b;
 // }
-// var i= divideNumbers (5,3);
-// console.log(i);
+// // var i= divideNumbers (5,3);
+// // console.log(i);
 
-function calculator (a,b, operation ) {
-   if (operation = "addition")
-     addNumbers(a,b );
-   else if (operation = "subtraction")
-    subtractNumbers(a,b );
-  else if (operation = "multiplication")
-    multiplyNumbers(a,b);
-  else if (operation = "division")
-    divideNumbers(a,b);
-}
- var i= calculator (5,3,"division");
- console.log(i);
+// function calculator (a,b, operation ) {
+//   switch(operation) {
+//     case "addition":
+//     return  addNumbers(a,b );
+//     case "subtraction":
+//     return  subtractNumbers(a,b );
+//     case "multiplication":
+//     return  multiplyNumbers(a,b );
+//     case "division":
+//     return  divideNumbers(a,b );
+
+//     }
+// }
+//  var i= calculator (5,3,"division");
+//  console.log(i);
+
+
